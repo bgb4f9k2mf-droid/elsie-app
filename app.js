@@ -1,9 +1,2 @@
-console.log("Elsie App Loaded");
-
-function trackActivity(page) {
-    localStorage.setItem("currentPage", page);
-}
-
-document.getElementById("assistant").onclick = () => {
-    alert("Hi! I'm your helper 💜");
-};
+document.getElementById("assistant").onclick=()=>{document.getElementById("assistantBox").style.display='block';};
+function closeAssistant(){document.getElementById("assistantBox").style.display='none';}
